@@ -7,5 +7,13 @@
         mc:Ignorable="d"
         Title="XREATOR" Height="350" Width="525">
 
-    <local:EditorTextbox ></local:EditorTextbox>
+    <DockPanel LastChildFill="False" Margin="0,0,-8,-2">
+
+        <local:EditorTextbox VerticalAlignment="Top" Height="306" Width="422" Margin="5,5,5,0" HorizontalAlignment="Left" >
+            <FlowDocument>
+                <Paragraph/>
+            </FlowDocument>
+        </local:EditorTextbox>
+        <Button x:Name="BtnLoadXSD" Content="Lade XSD" Width="75" Margin="5,0,5,80" RenderTransformOrigin="4.809,2.13" VerticalAlignment="Center" Click="BtnLoadXSD_Click"/>
+    </DockPanel>
 </Window>
