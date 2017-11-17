@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Windows.Forms;
+using System.Windows.Controls;
 
 namespace XCustomControls
 {
-    public class EditorTextbox : RichTextbox
+    public class EditorTextbox : RichTextBox
     {
         public EditorTextbox()
         {
+            this.AppendText("test");
         }
     }
 }
