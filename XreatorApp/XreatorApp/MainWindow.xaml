@@ -6,7 +6,4 @@
         xmlns:local="clr-namespace:XreatorApp"
         mc:Ignorable="d"
         Title="XREATOR" Height="350" Width="525">
-    <RichTextBox x:Name="tbEditor">
-
-    </RichTextBox>
 </Window>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using XCustomControls;
 
 namespace XreatorApp
 {
@@ -23,6 +24,10 @@ namespace XreatorApp
         public MainWindow()
         {
             InitializeComponent();
+
+            // Hauptkomponente - den Texteditor hinzufügen
+            var Editor = new EditorTextBox();
+            
         }
     }
 }
